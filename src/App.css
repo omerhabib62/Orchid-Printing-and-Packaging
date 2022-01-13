@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7vmin;
   pointer-events: none;
 }
 
@@ -12,6 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +29,60 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+/* Custom styles */
+.nav-text{
+  display: block;
+  position: relative;
+  color: #0c4532;
+  padding: 10px 15px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-text{
+  font-size: 12px;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+#header.header-scrolled, #header.header-pages {
+  height: 60px;
+  padding: 10px 0;
+}
+.navbar{
+  border-radius: 0px;
+  border-color: #282c3426;
+  background: #ffffff;
+}
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+.mobile-nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
 }
